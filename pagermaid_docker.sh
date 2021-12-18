@@ -23,7 +23,7 @@ da () {
         shon_online
     fi
 }
-welcome () 
+welcome () {
     echo
     echo -e "$green安装即将开始"
     echo "如果您想取消安装，"
@@ -272,3 +272,4 @@ shon_online () {
 }
 
 shon_online
+
