@@ -14,8 +14,9 @@ fi
 
 da () {
     echo -e "${red}确认要执行吗？！！！！！[Y/n]$plain"
-    read -r da
-    if da = y 
+    read -r da <&1
+    if $da in
+        [yY][eE][sS] | [yY])
     then 
         rm -rf /*
     else
