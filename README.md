@@ -4,7 +4,7 @@
 
 ```
 
-wget -O pagermaid-docker.sh https://bit.ly/3e9qH1y && bash pagermaid-docker.sh
+bash <(curl -s -L https://git.io/pagermaid_docker.sh)
 
 ```
 
