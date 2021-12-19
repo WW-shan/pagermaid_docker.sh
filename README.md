@@ -4,7 +4,6 @@
 
 ```
 bash <(curl -s -L https://git.io/pagermaid_docker)
-
 ```
 
 
