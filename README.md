@@ -21,7 +21,7 @@ bash <(curl -s -L https://git.io/pagermaid_docker)
   7) Docker 重装 PagerMaid
   8) 将 PagerMaid 数据持久化
   9)         消失
-  10) 退出脚本
+  10)      退出脚本
 
      Version：0.3.2
 ```
