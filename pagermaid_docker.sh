@@ -238,7 +238,7 @@ shon_online () {
     echo "  9)         消失"
     echo -e "  10)      退出脚本$plain"
     echo
-    echo "     Version：0.3.2"
+    echo "        Version：0.3.2"
     echo
     echo -n -e "$yellow请输入编号: ${plain}"
     read N
