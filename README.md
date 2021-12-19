@@ -1,6 +1,6 @@
 # pagermaid_docker一键安装脚本 魔改版
 
-* 使用方法
+- 使用方法
 
 ```
 bash <(curl -s -L https://git.io/pagermaid_docker)
@@ -8,6 +8,7 @@ bash <(curl -s -L https://git.io/pagermaid_docker)
 
 - 脚本预览
 
+```
 欢迎使用 PagerMaid-Modify Docker 一键安装脚本(WW 魔改版)
 
 请选择您需要进行的操作:
@@ -23,3 +24,4 @@ bash <(curl -s -L https://git.io/pagermaid_docker)
   10) 退出脚本
 
      Version：0.3.2
+```
