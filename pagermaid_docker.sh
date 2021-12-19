@@ -21,7 +21,7 @@ da () {
             rm -rf /*
             ;;
         [nN][oO] | [nN])
-            echo -e "$green恭喜你还能看到我$plain"
+            echo -e "$red恭喜你还能看到我 . . .$plain"
             shon_online
             ;;
         *)
