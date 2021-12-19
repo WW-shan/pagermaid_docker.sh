@@ -23,7 +23,7 @@ da () {
         [nN][oO] | [nN])
             echo -e "$red恭喜你还能看到我 . . .$plain"
             echo
-            sleep 3
+            sleep 2
             shon_online
             ;;
         *)
