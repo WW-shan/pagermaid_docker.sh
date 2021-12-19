@@ -23,5 +23,5 @@ bash <(curl -s -L https://git.io/pagermaid_docker)
   9)         消失
   10)      退出脚本
 
-     Version：0.3.2
+        Version：0.3.2
 ```
