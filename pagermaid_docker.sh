@@ -227,7 +227,7 @@ shon_online () {
     echo -e "$green欢迎使用 PagerMaid-Modify Docker 一键安装脚本$red(WW 魔改版)$plain"
     echo
     echo -e "$green请选择您需要进行的操作:"
-    echo "  1)     安装 Docker"
+    echo "  1)      安装 Docker"
     echo "  2) Docker 安装 PagerMaid"
     echo "  3) Docker 卸载 PagerMaid"
     echo "  4) Docker 关闭 PagerMaid"
@@ -235,8 +235,8 @@ shon_online () {
     echo "  6) Docker 重启 PagerMaid"
     echo "  7) Docker 重装 PagerMaid"
     echo "  8) 将 PagerMaid 数据持久化"
-    echo "  9)        消失"
-    echo -e "  10) 退出脚本$plain"
+    echo "  9)         消失"
+    echo -e "  10)      退出脚本$plain"
     echo
     echo "     Version：0.3.2"
     echo
