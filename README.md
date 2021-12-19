@@ -3,7 +3,6 @@
 * 使用方法
 
 ```
-
 bash <(curl -s -L https://git.io/pagermaid_docker)
 
 ```
