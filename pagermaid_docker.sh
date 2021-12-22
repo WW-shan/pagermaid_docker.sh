@@ -27,11 +27,11 @@ da () {
             shon_online
             ;;
         *)
-        echo -e "$red输入错误 . . .$plain"
-        echo -e "${green}返回菜单 . . .$plain"
-        sleep 5
-        shon_online
-        ;;
+            echo -e "$red输入错误 . . .$plain"
+            echo -e "${green}返回菜单 . . .$plain"
+            sleep 5
+            shon_online
+            ;;
     esac
 }
 
