@@ -1,4 +1,4 @@
-# pagermaid_docker一键安装脚本 魔改版
+# Pagermaid Docker一键安装脚本 魔改版
 
 
 原作者 GitHub 项目地址：https://github.com/xtaodada/PagerMaid-Modify
