@@ -115,6 +115,7 @@ data_persistence () {
         [yY][eE][sS] | [yY])
             echo -e "${yellow}请输入将数据保留在宿主机哪个路径（绝对路径），同时请确保该路径下没有名为 workdir 的文件夹 ：$plain"
             read -r data_path <&1
+            mkdir $data_path
             if [ -d $data_path ]; then
                 if [[ -z $container_name ]]; then
                     printf "请输入 PagerMaid 容器的名称："
@@ -151,7 +152,6 @@ data_persistence () {
 start_installation () {
     welcome
     docker_check
-    access_check
     build_docker
     start_docker
     data_persistence
