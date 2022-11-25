@@ -88,7 +88,7 @@ access_check () {
 }
 
 build_docker () {
-    echo -e "${yellow}请输入 PagerMaid 容器的名称(首字母为英文)：$plain"
+    echo -e "${yellow}请输入 PagerMaid 容器的名称(首项为英文且大于一项)：$plain"
     read -r container_name <&1
     echo -e "${green}正在拉取 Docker 镜像 . . .$plain"
     docker rm -f "$container_name" > /dev/null 2>&1
