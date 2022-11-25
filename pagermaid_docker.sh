@@ -48,6 +48,7 @@ docker_install () {
     welcome
     echo -e "$green开始安装 Docker . . .$plain"
     apt install curl -y > /dev/null 2>&1
+    yum install curl -y > /dev/null 2>&1
     curl -fsSL get.docker.com -o get-docker.sh > /dev/null 2>&1
     sudo sh get-docker.sh --mirror Aliyun > /dev/null 2>&1
     echo -e "$green正在检查 Docker 安装情况 . . .$plain"
