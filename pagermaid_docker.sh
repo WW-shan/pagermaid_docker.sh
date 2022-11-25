@@ -151,7 +151,6 @@ data_persistence () {
 }
 
 start_installation () {
-    welcome
     docker_check
     access_check
     build_docker
